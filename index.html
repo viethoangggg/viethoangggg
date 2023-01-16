@@ -1,64 +1,34 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Send My Love | cre Việt Hoàng</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Happy New Year 2023</title>
 </head>
 <body>
-    <div class="grid"></div>
-
-    <div class="warning"></div>
-
-    <div class="base">
-        <button id="activate">
-            <span></span>
-        </button>
+    <div class="wrapper">
+        <h1>Thời gian chỉ còn...</h1>
+        <div class="box-time">
+            <div class="time">
+                <p>Ngày</p>
+                <span id="days">day</span>
+            </div>
+            <div class="time">
+                <p>Giờ</p>
+                <span id="hours">hours</span>
+            </div>
+            <div class="time">
+                <p>Phút</p>
+                <span id="minutes">minute</span>
+            </div>
+            <div class="time">
+                <p>Giây</p>
+                <span id="seconds">seconds</span>
+            </div>
+        </div>
     </div>
-
-    <div class="box opened" id="cover">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <span></span><span></span>
-    </div>
-
-    <div class="hinges"></div>
-
-    <div class="text">
-        CRE:&thinsp; Việt Hoàng
-    </div>
-    
-    <div id="panel2">
-        <div id="msg">TRẢ LỜI LẠI DI:(</div>
-        <span id="again">lại đi</span>
-    </div>
-
-
-    <div id="panel">
-        <div id="msg">ANSWER NOW</div>
-        <div id="time">5</div>
-        <span id="abort"><a href="heart.html">YES</a></span>
-        <span id="no">NO</span>
-        <span id="detonate">Đmm</span>
-    </div>
-
-    <div id="turn-off"></div>
-    <div id="closing"></div>
-
-    <div id="restart"><button id="reload"></button></div>
-
-    <audio id="alarm">
-        <source src="https://josetxu.com/demos/sounds/self-destruct-alarm-count.mp3" type="audio/mpeg">
-    </audio>
-    
-    <script src="main.js"></script>
-
 </body>
+<script src="app.js"></script>
 </html>
